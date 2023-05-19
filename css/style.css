@@ -60,6 +60,13 @@ button {
     cursor: pointer;
 }
 
+p {
+    display: none;
+    font-size: 20px;
+    font-weight: 900;
+    color: red;
+}
+
 @media (min-width: 280px) {
     .container {
         width: 90%;
@@ -85,7 +92,7 @@ button {
         width: 60%;
     }
 
-    img {
+    .box img {
         max-width: 80%;
     }
 }
